@@ -125,4 +125,9 @@ main .container [class*="col-"] img {
     float: right;
 
   }
+
+  .jumbo_text {
+    font-size: 250%;
+    transform: translate(26%, 0);
+  }
 }
