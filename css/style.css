@@ -51,6 +51,11 @@ body {
   border-right: 1px solid black;
 }
 
+.menu_inline li a:hover {
+  text-decoration: underline;
+  color: cornflowerblue;
+}
+
 .jumbo {
   background-image: url('../img/hero-bg.jpg');
   height: 70vh;
