@@ -96,6 +96,7 @@ main .container [class*="col-"] img {
   object-fit: contain;
 }
 
+/* Responsive Tablet */
 @media screen and (max-width: 992px) and (min-width: 768px) {
 
   .container_1000 .container [class*="col-"] img {
@@ -114,6 +115,7 @@ main .container [class*="col-"] img {
   }
 }
 
+/* Responsive Smartphone */
 @media screen and (max-width: 768px) {
 
 .container_1000 .container [class*="col-"] img {
@@ -132,7 +134,8 @@ main .container [class*="col-"] img {
   }
 
   .jumbo_text {
-    font-size: 250%;
-    transform: translate(26%, 0);
+    font-size: 200%;
+    height: 150px;
+    transform: translate(50%, 70%);
   }
 }
