@@ -58,6 +58,7 @@ body {
 
 .jumbo {
   background-image: url('../img/hero-bg.jpg');
+  position: relative;
   height: 70vh;
   width: 100%;
   background-position: center;
@@ -72,8 +73,12 @@ body {
 }
 
 .jumbo_text {
-  font-size: 250%;
-  transform: translate(50%, 50%);
+  position: absolute;
+  height: 150px;
+  font-size: 230%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .jumbo_text [class*="col-"] img {
@@ -135,7 +140,6 @@ main .container [class*="col-"] img {
 
   .jumbo_text {
     font-size: 200%;
-    height: 150px;
-    transform: translate(50%, 70%);
+    /* transform: translate(50%, 70%); */
   }
 }
