@@ -87,18 +87,45 @@ body {
   padding: 10px;
 }
 
-main .container [class*="col-"] {
+#item .container [class*="col-"] {
   background-color: #fafafa;
   text-align: center;
   font-size: 220%;
   margin-top: 30px;
 }
 
-main .container [class*="col-"] img {
+#item .container [class*="col-"] img {
   margin-top: 30px;
   width: 100%;
   max-height: 400px;
   object-fit: contain;
+}
+
+#phone .container p {
+  font-size: 13px;
+}
+
+.phone {
+  background-image: url('../img/HelbizBanner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.iphone {
+  width: 80%;
+}
+
+.align-center {
+  text-align: center;
+}
+
+#phone .container .margin-top {
+  margin-top: 550px;
+}
+
+#phone .container .margin-top-2 {
+  margin-top: 250px;
 }
 
 /* Responsive Tablet */
@@ -108,6 +135,10 @@ main .container [class*="col-"] img {
     left: 5%;
   }
   .menu_inline {
+    display: none;
+  }
+
+  .md-display-none {
     display: none;
   }
 
@@ -127,6 +158,10 @@ main .container [class*="col-"] img {
     left: 5%;
   }
   .menu_inline {
+    display: none;
+  }
+
+  .md_display_none {
     display: none;
   }
 
